@@ -9,7 +9,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const skillCategories = [
   {
     title: "Machine Learning",
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Neural Networks", "Computer Vision", "NLP"],
+    skills: ["Supervised Learning",  "TensorFlow","Unsupervised Learning", "PyTorch", "Scikit-learn", "Neural Networks", "Computer Vision", "NLP","XGBoost"],
   },
   {
     title: "Generative AI",
@@ -26,17 +26,17 @@ const skillCategories = [
   },
   {
     title: "Data Engineering",
-    skills: ["SQL", "NoSQL", "Data Pipelines", "ETL", "Data Visualization"],
+    skills: ["SQL", "NoSQL", "Data Pipelines", "ETL", "Data Visualization", "Apache Superset"],
   },
   {
     title: "Programming",
-    skills: ["Python", ],
+    skills: ["Python", "Flask", "Django", "REST APIs"],
   },
   // 💡 Add more categories like this:
-  // {
-  //   title: "Cloud & DevOps",
-  //   skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "MLOps", "Terraform"],
-  // },
+  {
+    title: "Cloud & DevOps",
+    skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "MLOps"],
+  },
 ]
 
 export function SkillsSection() {

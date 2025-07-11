@@ -13,10 +13,24 @@ const experiences = [
     title: "Junior Software Engineer", // 🔥 Your job title
     company: "KAPL", // 🔥 Company name
     period: "2024 - Present", // 🔥 Time period
-    description:
-      "Leading a team of AI engineers in developing cutting-edge generative AI solutions. Architected and implemented a large language model fine-tuning pipeline that reduced training time by 40% while improving model performance.", // 🔥 Your job description and achievements
-    technologies: ["Python","PyTorch", "Transformers", "RLHF", "Kubernetes", "MLOps", "LLMs"], // 🔥 Technologies you used
-  },
+description:
+  "Built scalable backend systems, integrated AI models, and implemented data ingestion pipelines for enterprise applications. Contributed to backend development, API development, SQL-based data handling, and workflow automation . Focused on delivering clean, maintainable code and collaborating across teams to support production-ready deployments.",
+
+technologies: [
+  "Python",
+  "PyTorch",
+  "REST APIs",
+  "MySQL",
+  "Tensorflow",
+  "OpenCV",
+  "Superset",
+  "ETL",
+  "MongoDB",
+  "Git",
+  "Docker",
+  "MLOps"
+],
+},
   // {
   //   title: "Senior Machine Learning Engineer",
   //   company: "DataVision Corp",
