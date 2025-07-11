@@ -60,12 +60,12 @@ export function Footer() {
               <p className="text-sm text-muted-foreground">
                 &copy; {new Date().getFullYear()} Ram. All rights reserved.
               </p>
-              <p className="text-xs text-muted-foreground mt-1">AI/ML Engineer | Generative AI | Agentic Systems</p>
+              <p className="text-xs text-muted-foreground mt-1">AI Engineer | Generative AI | Agentic Systems</p>
             </motion.div>
           ) : (
             <div className="text-center md:text-right">
-              <p className="text-sm text-muted-foreground">&copy; 2024 Ram. All rights reserved.</p>
-              <p className="text-xs text-muted-foreground mt-1">AI/ML Engineer | Generative AI | Agentic Systems</p>
+              <p className="text-sm text-muted-foreground">&copy; 2025 Ram. All rights reserved.</p>
+              <p className="text-xs text-muted-foreground mt-1">AI Engineer | Generative AI | Agentic Systems</p>
             </div>
           )}
         </div>
@@ -77,9 +77,9 @@ export function Footer() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-6 pt-6 border-t border-border text-center"
           >
-            <p className="text-sm text-muted-foreground italic">
+            {/* <p className="text-sm text-muted-foreground italic">
               "The goal of AI is not to replace humans, but to empower them to reach new heights."
-            </p>
+            </p> */}
           </motion.div>
         ) : (
           <div className="mt-6 pt-6 border-t border-border text-center">
